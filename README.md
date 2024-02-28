@@ -1,3 +1,4 @@
+<img src="/photos/PawsAndTailsLogoTrimmed.png" width="600">
 # 🐶PawsAndTails - Demo
 A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
