@@ -4,7 +4,10 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 ## Table of contents
 
 - [Application Lifecycle](#application_lifecycle)
-- [Phase 1 - Requirement Analysis and Data Structure](#phase_3_-_Development)
+- [Phase 1 - Requirement Analysis and Data Structure](#requirement_analysis_and_data_structure)
+- [Phase 1 - Design](#design)
+- [Phase 3 - Development](#development)
+- [Phase 4 - Testing](#testing)
 - [Info](#info)
 
 ## Application Lifecycle
@@ -15,12 +18,18 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 5. Testing
 6. Deployment - Release
 7. Maintenance and Support
-    
 
-## Phase 3 - Development
+## Requirement Analysis and Data Structure
+
+## Design
+
+## Development
   ### Code Sample
   * Download the .zip file
   * Add the contents of the classes and lwc folders to the respected folders of your org's \force-app\main\default directory
+
+## Testing
+
 
 ## Links
 
