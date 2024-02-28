@@ -29,7 +29,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 ### Specific: Define schema and ERD
 * how many objects should be added?
 * which fields should these new objects have?
-* for each of these new objects can you define the relationships that must exist.
+* for each of these new objects can you define the relationships?
 
 
 ## Design
