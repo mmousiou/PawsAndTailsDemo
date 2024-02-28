@@ -4,9 +4,11 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 ## Table of contents
 
 - [Application Lifecycle](#application_lifecycle)
+- [Business Case](#business_case)
 - [Phase 1 - Requirement Analysis and Data Structure](#requirements)
 - [Phase 1 - Design](#design)
 - [Phase 3 - Development](#development)
+
 - [Phase 4 - Testing](#testing)
 - [Usefull links](#links)
 - [Collaborators Info](#info)
@@ -20,6 +22,14 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 6. Deployment - Release
 7. Maintenance and Support
 
+## Business Case
+
+### Business
+Paws & Tails is a grooming salon that recently setup their CRM system using Salesforce. They have setup Accounts to hold info on client families, Contacts for specific people withing the families on the Accounts.
+
+### Business Requirements
+Paws & Tails wants to enhance their CRM system with a new appointment management System.
+They want to be able to add new appointments and search all the appointments for a selected date. The app must print all the available appointments info: Code, Time, Pet Name, Contact Name, Services.
 
 ## Requirements
 ### General guidlines
