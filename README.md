@@ -1,4 +1,4 @@
-#🐶PawsAndTails - Demo
+# 🐶PawsAndTails - Demo
 A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
 ## Table of contents
