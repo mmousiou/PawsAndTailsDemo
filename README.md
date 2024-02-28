@@ -1,4 +1,4 @@
-# 🐶PawsAndTails - Demo
+![image](https://github.com/mmousiou/PawsAndTailsDemo/assets/72067199/74ed5222-44e8-4d9e-978c-0544cf1924ca)# 🐶PawsAndTails - Demo
 A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
 ## Table of contents
@@ -31,28 +31,48 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 * which fields should these new objects have?
 * for each of these new objects can you define the relationships?
 
+<img src="/photos/ERDInfo.PNG" width="200">
+
 
 ## Design
 * Design the user interface (UI) and user experience (UX).
 * Plan the architecture and technology stack
 * Design flowcharts for complex algorithms, decision trees, or business logic
 
+<img src="/photos/UI%20UX%20design.PNG" width="200">
+
 ## Development
-### General guidlines
-* Write code based on the design specifications.
-* Develop both the frontend and backend components.
+### Challenge:
+- Utilize Salesforce Lightning components for an intuitive appointment management interface
+- Write code based on the design specifications.
+- Develop both the frontend and backend components.
+
+### Key Considerations:
+- Lightning components for a user-friendly interface.
+- Gather appointments from salesforce database (Utilize AI for code)
+- Write code based on the design specifications.
 
 ### Code Sample
 * Download the .zip file
 * Add the contents of the classes and lwc folders to the respected folders of your org's \force-app\main\default directory
 
 ## Testing
+The testing phase is crucial to ensure that the implemented Salesforce solution meets the requirements and functions smoothly.
+### Challenge:
+- Conduct thorough testing of the appointment management system
+- Validate that the system performs as intended and is user-friendly.
+- Address any issues or enhancements identified during testing.
 
+### Key Considerations:
+- Conduct unit testing, integration testing, and system testing.
+- Identify and fix bugs and issues.
 
 ## Links
-* [Trailhead - Developer Beginner](https://trailhead.salesforce.com/content/learn/trails/force_com_dev_beginner)
+* [Lightning Components Library](https://developer.salesforce.com/docs/component-library/overview/components)
+* [SLDS Design System - Margins](https://www.lightningdesignsystem.com/utilities/margin/#site-main-content)
 * [drawio for design and ERD](https://app.diagrams.net/)
 * [Create a Free Salesforce Developer Org](https://developer.salesforce.com/signup)
+* [Trailhead - Developer Beginner](https://trailhead.salesforce.com/content/learn/trails/force_com_dev_beginner)
 * [Quick Start: Visual Studio Code for Salesforce Development](https://github.com/mmousiou/PawsAndTailsDemo/assets/72067199/62d6de64-809f-48b1-b685-71c462651efd)
 
 
