@@ -58,5 +58,5 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
 ## Info
 ### Authors
-  - [Maria Mousiou](https://github.com/mmousiou) , email: mmousiou@gmail.com
-  - [Tina Chrysidou](https://github.com/tinachrysidou), email: tina.chrisidou@gmail.com
+  - gitHub: [Maria Mousiou](https://github.com/mmousiou) , email: mmousiou@gmail.com
+  - gitHub: [Tina Chrysidou](https://github.com/tinachrysidou), email: tina.chrisidou@gmail.com
