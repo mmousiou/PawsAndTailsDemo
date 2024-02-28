@@ -9,7 +9,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 - [Phase 3 - Development](#development)
 - [Phase 4 - Testing](#testing)
 - [Usefull links](#links)
-- [Info](#info)
+- [Collaborators Info](#info)
 
 ## Application Lifecycle
 1. Idea and Planning
@@ -56,5 +56,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 * [Quick Start: Visual Studio Code for Salesforce Development](https://github.com/mmousiou/PawsAndTailsDemo/assets/72067199/62d6de64-809f-48b1-b685-71c462651efd)
 
 
-## Info 
-Authors: mmousiou@gmail.com, tina.chrisidou@gmail.com
+## Info
+### Authors
+  - [Maria Mousiou](https://github.com/mmousiou) , email: mmousiou@gmail.com
+  - [Tina Chrysidou](https://github.com/tinachrysidou), email: tina.chrisidou@gmail.com
