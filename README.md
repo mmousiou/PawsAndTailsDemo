@@ -1,4 +1,4 @@
-![image](https://github.com/mmousiou/PawsAndTailsDemo/assets/72067199/74ed5222-44e8-4d9e-978c-0544cf1924ca)# 🐶PawsAndTails - Demo
+🐶PawsAndTails - Demo
 A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
 ## Table of contents
