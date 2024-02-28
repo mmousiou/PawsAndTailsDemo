@@ -4,7 +4,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 ## Table of contents
 
 - [Application Lifecycle](#application_lifecycle)
-- [Phase 1 - Requirement Analysis and Data Structure](#requirement_analysis_and_data_structure)
+- [Phase 1 - Requirement Analysis and Data Structure](#Requirement_Analysis_and_Data_Structure)
 - [Phase 1 - Design](#design)
 - [Phase 3 - Development](#development)
 - [Phase 4 - Testing](#testing)
@@ -31,7 +31,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 * which fields should these new objects have?
 * for each of these new objects can you define the relationships?
 
-<img src="/photos/ERDInfo.PNG" width="500">
+<img src="/photos/ERDInfo.PNG" width="600">
 
 
 ## Design
@@ -39,7 +39,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 * Plan the architecture and technology stack
 * Design flowcharts for complex algorithms, decision trees, or business logic
 
-<img src="/photos/UI%20UX%20design.PNG" width="500">
+<img src="/photos/UI%20UX%20design.PNG" width="600">
 
 ## Development
 ### Challenge:
