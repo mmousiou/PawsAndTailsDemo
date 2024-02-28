@@ -4,7 +4,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 ## Table of contents
 
 - [Application Lifecycle](#application_lifecycle)
-- [Business Case](#business_case)
+- [Business Case](#business-case)
 - [Phase 1 - Requirement Analysis and Data Structure](#requirements)
 - [Phase 1 - Design](#design)
 - [Phase 3 - Development](#development)
