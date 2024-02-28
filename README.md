@@ -2,7 +2,7 @@
 A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
 ## Table of contents
-- [Application lifecycle] (#Application Lifecycle)
+- [Application lifecycle](#Application Lifecycle)
 
 ## Application Lifecycle
 1. Idea and Planning
