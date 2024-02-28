@@ -1,0 +1,82 @@
+<template>
+  <div class={formElementClasses}>
+    <label class="slds-form-element__label"><abbr class="slds-required" title="required" if:true={required}>* </abbr> {label}</label>
+
+    <!-- HELP TEXT -->
+    <lightning-helptext content={fieldLevelHelp} if:true={fieldLevelHelp}></lightning-helptext>
+
+    <div class="slds-form-element__control">
+      <div class="slds-combobox_container">
+        <div class={comboClass} aria-expanded="false" aria-haspopup="listbox" role="combobox">
+          <div class="slds-combobox__form-element slds-input-has-icon slds-input-has-icon_right" role="none">
+            <input data-id="input" disabled={reallyDisabled} onclick={toggleCombo} onkeydown={toggleCombo} type="text" class="slds-input slds-combobox__input" aria-autocomplete="list" autocomplete="off" role="textbox" placeholder={realPlaceholder} readonly value={displayValue}/>
+            <lightning-icon icon-name="utility:down" class="slds-icon_container slds-icon-utility-search slds-input__icon slds-input__icon_right" size="x-small"></lightning-icon>
+          </div>
+
+          <div class="slds-dropdown slds-dropdown_fluid slds-dropdown_length-7" role="listbox">
+
+            <div if:true={showSearchBox} class="mySticky">
+              <input if:false={hasSections} data-id="searchBox" type="text" class="myInput" placeholder="Type here..." onkeyup={searchInList} onmousedown={keepOpen} onkeydown={preventUpDownText}>
+            </div>
+
+            <!-- pickList  -->
+            <template if:true={comboOpen}>
+            <ul if:false={hasSections} class="slds-listbox slds-listbox_vertical" role="presentation">
+              <div if:true={noResult} class="errorMessage"> No match found </div>
+              <li role="presentation" class="slds-listbox__item" for:each={listFiltered} for:item="o" key={o.value} onclick={o.onClick}>
+                <div class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="option">
+                  <span class="slds-media__figure slds-listbox__option-icon">
+                    <lightning-icon if:true={o.isSelected} icon-name="utility:check" class="slds-icon_container slds-icon-utility-check slds-current-color" size="x-small"></lightning-icon>
+                  </span>
+                  <span class="slds-media__body">
+                    <span class="slds-truncate" title={o.label}> {o.label}</span>
+                  </span>
+                </div>
+              </li>
+            </ul>
+            </template>
+
+            <!-- picklist with section -->
+            <ul if:true={hasSections} class="slds-listbox slds-listbox_vertical" role="group" aria-label="Group One">
+              <div for:each={cOptions} for:item="o" key={o.section}>
+                <li role="presentation" class="slds-listbox__item">
+                  <div class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" role="presentation">
+                    <h3 class="slds-listbox__option-header" role="presentation">{o.section}</h3>
+                  </div>
+                </li>
+                <div for:each={o.options} for:item="i" key={i.value}>
+                  <li>
+                    <div class="slds-media slds-listbox__option slds-listbox__option_plain slds-media_small" onclick={i.onClick} role="option">
+                      <span class="slds-media__figure slds-listbox__option-icon">
+                        <lightning-icon if:true={i.isSelected} icon-name="utility:check" class="slds-icon_container slds-icon-utility-check slds-current-color" size="x-small"></lightning-icon>
+                      </span>
+                      <span class="slds-media__body">
+                        <span class="slds-truncate" title={i.label}> {i.label}</span>
+                      </span>
+                    </div>
+                  </li>
+                </div>
+              </div>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div if:true={multiple} class="slds-grid" style="display: block;">
+      <span for:each={selectedItems} for:item="v" key={v.value} for:index="index" class="slds-pill slds-pill_link">
+        <span if:true={disabled} class="slds-pill__action" title="Pill Label">
+          <span class="slds-pill__label">{v.label}</span>
+        </span>
+        <a if:false={disabled} class="slds-pill__action" title="Pill Label">
+          <span class="slds-pill__label">{v.label}</span>
+        </a>
+        <button value={index} onclick={removeSelectedItem} disabled={disabled} class="slds-button slds-button_icon slds-button_icon slds-pill__remove" title="Remove">
+          X
+        </button>
+      </span>
+    </div>
+
+    <div class="slds-form-element__help" if:true={displayError}>{messageWhenValueMissing}</div>
+    <div class="slds-form-element__help" if:true={displayCustomError}>{customMessage}</div>
+  </div>
+</template>

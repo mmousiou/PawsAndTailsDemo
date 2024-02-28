@@ -1,0 +1,25 @@
+<template>
+  <lightning-modal-header label={header}></lightning-modal-header>
+  <lightning-modal-body class="slds-is-relative">
+    <c-new-appointment-form 
+      selected-date={selectedDate}
+      save-appointment={savePressed} 
+      oncloseform={handleCloseForm}>
+    </c-new-appointment-form>
+  </lightning-modal-body>
+  <lightning-modal-footer>
+    <div class="slds-align_absolute-center">
+      <lightning-button 
+        onclick={handleCancel} 
+        label="Cancel"
+        class="slds-m-right_xx-small">
+      </lightning-button>
+      <lightning-button 
+        onclick={handleSave} 
+        variant="brand" 
+        label="Save"
+        disabled={disableSave}>
+      </lightning-button>
+    </div>
+  </lightning-modal-footer>
+</template>

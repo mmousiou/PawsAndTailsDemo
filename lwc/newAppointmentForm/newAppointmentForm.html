@@ -1,0 +1,68 @@
+<template>
+  <lightning-spinner lwc:if={spinner} alternative-text="loading" size="large"></lightning-spinner>
+  <div lwc:if={noSlotsAvailable} class="slds-text-heading_medium">
+    There are no time slots available for this date.
+  </div>
+  <div lwc:else class="form-container">
+    <div class="date-time form-item">
+      <lightning-input 
+        type="date" 
+        onchange={handleChange}
+        date-style="long" 
+        value={selectedDate} 
+        label="Date"
+        disabled
+        class="slds-m-right_xx-small">
+      </lightning-input>
+      <lightning-combobox
+        name="TimeSlot__c"
+        lwc:ref="combobox"
+        label="Time Slot"
+        value={appointment.TimeSlot__c}
+        options={timeSlots}
+        required
+        onchange={handleChange}>
+      </lightning-combobox>
+  </div>
+  <c-lwc-combobox
+    name="Contact__c"
+    class="form-item"
+    label="Contact Name"
+    value={appointment.Contact__c}
+    options={contacts}
+    required
+    show-search-box
+    onchange={handleChange}>
+  </c-lwc-combobox>
+  <lightning-combobox
+    name="Pet__c"
+    label="Pet Name"
+    class="form-item"
+    value={appointment.Pet__c}
+    options={pets}
+    required
+    disabled={noContactSelected}
+    onchange={handleChange}>
+  </lightning-combobox>
+  <c-lwc-combobox
+    name="ServicesCodes__c"
+    label="Services"
+    class="form-item"
+    value={appointment.ServicesCodes__c}
+    options={services}
+    show-search-box
+    multiple
+    onchange={handleChange}>
+  </c-lwc-combobox>
+  <c-lwc-combobox
+    name="Opportunity__c"
+    label="Opportunity"
+    class="form-item"
+    value={appointment.Opportunity__c}
+    options={opportunities}
+    disabled={noContactSelected}
+    show-search-box
+    onchange={handleChange}>
+  </c-lwc-combobox>
+  </div>
+</template>

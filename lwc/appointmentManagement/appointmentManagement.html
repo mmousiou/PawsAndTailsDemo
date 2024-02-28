@@ -1,0 +1,50 @@
+<!-- sldsValidatorIgnore -->
+<template>
+  <lightning-card variant="narrow" title={title} icon-name="standard:event">
+    <lightning-spinner lwc:if={spinner} alternative-text="loading" size="large"></lightning-spinner>
+    <lightning-button 
+      variant="brand" 
+      label="New Appointment" 
+      slot="actions"
+      disabled={disableAddNew}
+      onclick={createNewAppointment}>
+    </lightning-button>
+    <div class="slds-m-around_small">
+      <!-- search date -->
+      <div class="search-container">
+        <lightning-input 
+          type="date"   
+          onchange={handleChange}
+          date-style="long" 
+          value={selectedDate} 
+          label="Date"
+          class="slds-m-right_xx-small">
+        </lightning-input>
+        <lightning-button 
+          variant="brand" 
+          label="Search" 
+          onclick={searchAppointment}
+          disabled={disableSearch}>
+        </lightning-button>
+      </div>
+      <!-- print data -->
+      <div lwc:if={showResults} class="slds-box slds-box_xx-small slds-m-around_small">
+        <lightning-datatable
+          key-field="Id"
+          data={data}
+          show-row-number-column
+          row-number-offset="0"
+          draft-values={draftValues}
+          onsave={handleSave}
+          onrowaction={handleRowAction}
+          columns={columns}>
+        </lightning-datatable>
+      </div>
+      <div lwc:else class="slds-box slds-box_xx-small slds-m-around_small slds-align-absolute-center">
+        <div class="slds-text-heading_small slds-m-around_medium">
+          There are appointments for the selected date.
+        </div>
+      </div>
+    </div>
+  </lightning-card>
+</template>
