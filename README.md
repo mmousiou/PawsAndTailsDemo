@@ -3,7 +3,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
 ## Table of contents
 
-- [Application Lifecycle]
+- [Application Lifecycle](#application_lifecycle)
 - [Info](#info)
 
 ## Application Lifecycle
@@ -24,4 +24,4 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 ## Links
 
 ## Info 
-Authors: [Maria Mousiou](https://github.com/mmousiou) [mmousiou@gmail.com], [Tina Chrysidou](https://github.com/tinachrysidou) [tina.chrisidou@gmail.com]
+Authors: mmousiou@gmail.com, tina.chrisidou@gmail.com
