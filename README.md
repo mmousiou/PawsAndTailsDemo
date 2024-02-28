@@ -8,6 +8,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 - [Phase 1 - Design](#design)
 - [Phase 3 - Development](#development)
 - [Phase 4 - Testing](#testing)
+- [Usefull links](#links)
 - [Info](#info)
 
 ## Application Lifecycle
