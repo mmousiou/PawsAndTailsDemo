@@ -1,4 +1,3 @@
-<img src="/photos/PawsAndTailsLogoTrimmed.png" width="600">
 # 🐶PawsAndTails - Demo
 A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
@@ -24,7 +23,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 7. Maintenance and Support
 
 ## Business Case
-
+<img src="/photos/PawsAndTailsLogoTrimmed.png" width="300">
 ### Business
 Paws & Tails is a grooming salon that recently setup their CRM system using Salesforce. They have setup Accounts to hold info on client families, Contacts for specific people withing the families on the Accounts.
 
