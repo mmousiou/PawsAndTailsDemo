@@ -3,9 +3,9 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
 ## Table of contents
 
-- [Application Lifecycle](#application_lifecycle)
+- [Application Lifecycle](#application-lifecycle)
 - [Business Case](#business-case)
-- [Phase 1 - Requirement Analysis and Data Structure](#requirements)
+- [Phase 1 - Requirement Analysis and Data Structure](#requirement-analysis-and-data-structure)
 - [Phase 1 - Design](#design)
 - [Phase 3 - Development](#development)
 
@@ -31,7 +31,7 @@ Paws & Tails is a grooming salon that recently setup their CRM system using Sal
 Paws & Tails wants to enhance their CRM system with a new appointment management System.
 They want to be able to add new appointments and search all the appointments for a selected date. The app must print all the available appointments info: Code, Time, Pet Name, Contact Name, Services.
 
-## Requirements
+## Requirement Analysis and Data Structure
 ### General guidlines
 * Gather detailed requirements, including data entities, relationships, and attributes.
 * Understand user needs and expectations.
