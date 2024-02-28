@@ -31,7 +31,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 * which fields should these new objects have?
 * for each of these new objects can you define the relationships?
 
-<img src="/photos/ERDInfo.PNG" width="200">
+<img src="/photos/ERDInfo.PNG" width="500">
 
 
 ## Design
@@ -39,7 +39,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 * Plan the architecture and technology stack
 * Design flowcharts for complex algorithms, decision trees, or business logic
 
-<img src="/photos/UI%20UX%20design.PNG" width="200">
+<img src="/photos/UI%20UX%20design.PNG" width="500">
 
 ## Development
 ### Challenge:
