@@ -25,7 +25,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 ## Business Case
 <img src="/photos/PawsAndTailsLogoTrimmed.png" width="300">
 
-### Business
+### Business Overview
 Paws & Tails is a grooming salon that recently setup their CRM system using Salesforce. They have setup Accounts to hold info on client families and organizations, Contacts for specific people within the families on the Accounts, Products for the products, services and packages offered by the salon and Opportunities and Campaigns to utilize marketing campaigns, Referal Programs and Discount Packages.
 
 ### Business Requirements
