@@ -4,7 +4,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 ## Table of contents
 
 - [Application Lifecycle](#application_lifecycle)
-- [Phase 1 - Requirement Analysis and Data Structure](#Requirement_Analysis_and_Data_Structure)
+- [Phase 1 - Requirement Analysis and Data Structure](#data_structure)
 - [Phase 1 - Design](#design)
 - [Phase 3 - Development](#development)
 - [Phase 4 - Testing](#testing)
@@ -20,7 +20,7 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 6. Deployment - Release
 7. Maintenance and Support
 
-## Requirement Analysis and Data Structure
+## Data Structure
 ### General guidlines
 * Gather detailed requirements, including data entities, relationships, and attributes.
 * Understand user needs and expectations.
