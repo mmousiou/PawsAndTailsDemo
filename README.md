@@ -26,10 +26,10 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 <img src="/photos/PawsAndTailsLogoTrimmed.png" width="300">
 
 ### Business
-Paws & Tails is a grooming salon that recently setup their CRM system using Salesforce. They have setup Accounts to hold info on client families, Contacts for specific people withing the families on the Accounts.
+Paws & Tails is a grooming salon that recently setup their CRM system using Salesforce. They have setup Accounts to hold info on client families and organizations, Contacts for specific people within the families on the Accounts, Products for the products, services and packages offered by the salon and Opportunities and Campaigns to utilize marketing campaigns, Referal Programs and Discount Packages.
 
 ### Business Requirements
-Paws & Tails wants to enhance their CRM system with a new appointment management System.
+Paws & Tails wants to enhance their CRM system with a new Appointment Management System.
 They want to be able to add new appointments and search all the appointments for a selected date. The app must print all the available appointments info: Code, Time, Pet Name, Contact Name, Services.
 
 ## Requirement Analysis and Data Structure
