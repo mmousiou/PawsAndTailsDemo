@@ -6,7 +6,6 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 - [Application Lifecycle](#application_lifecycle)
 - [Phase 1 - Requirement Analysis and Data Structure](#data_structure)
 - [Phase 1 - Design](#design)
-- [Phase 1 - Design](#data_structure)
 - [Phase 3 - Development](#development)
 - [Phase 4 - Testing](#testing)
 - [Usefull links](#links)
