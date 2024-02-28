@@ -2,11 +2,14 @@
 A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
 ## Table of contents
+- [Application lifecycle] (#Application Lifecycle)
 
+##Application Lifecycle
+- 
 ## Phase 3 - Development
   ### Code Sample
-    *Download the .zip file
-    *Add the contents of the classes and lwc folders to the respected folders of your org's \force-app\main\default directory
+  * Download the .zip file
+  * Add the contents of the classes and lwc folders to the respected folders of your org's \force-app\main\default directory
 
 ## Links
 
