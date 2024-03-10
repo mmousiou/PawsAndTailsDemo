@@ -17,14 +17,6 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 
 <img src="/photos/Agile.png" width="600">
 
-1. Idea and Planning
-2. Requirement Analysis
-3. Design
-4. Development
-5. Testing
-6. Deployment - Release
-7. Maintenance and Support
-
 ## Business Case
 <img src="/photos/PawsAndTailsLogoTrimmed.png" width="300">
 
