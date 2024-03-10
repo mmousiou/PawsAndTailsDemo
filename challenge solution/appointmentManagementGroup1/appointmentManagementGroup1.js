@@ -1,5 +1,5 @@
 import { LightningElement, track } from 'lwc'
-import getAppointments from '@salesforce/apex/CtrlAppointmentManagement.getAppointments'
+import getAppointments from '@salesforce/apex/CtrlAppointmentManagement1.getAppointments'
 
 export default class AppointmentManagementGroup1 extends LightningElement {
   /**
