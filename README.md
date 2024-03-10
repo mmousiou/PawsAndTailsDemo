@@ -14,6 +14,9 @@ A salesforce demo presented in the EmPowerfulWomen event hosted by Deloitte.
 - [Collaborators Info](#info)
 
 ## Application Lifecycle
+
+<img src="/photos/Agile.PNG" width="600">
+
 1. Idea and Planning
 2. Requirement Analysis
 3. Design
